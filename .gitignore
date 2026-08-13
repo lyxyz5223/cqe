@@ -1,0 +1,30 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ogs/
+[Uu]serSettings/
+
+# Visual Studio / C# generated
+*.csproj
+*.sln
+.vsconfig
+.vs/
+.idea/
+
+.vscode/
+
+# Asset Store 第三方资源
+Assets/2D Casual UI/
+Assets/Kevin Iglesias/
+Assets/Layer Lab/
+Assets/MR3_2004/
+Assets/Polytope Studio/
+Assets/SkySeries Freebie/
+Assets/Snowy_Low_Poly_Trees/
+Assets/Stylize Snow Texture/
+Assets/Violet Theme Ui/
+
+*.log
+

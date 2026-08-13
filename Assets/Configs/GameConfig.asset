@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ea5815b05d25f4a997a0ac6d2777e1, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  dropGenerationSpacing: 1
+  jumpHeight: 1.5
+  scorePerMeter: 5
+  playerSpeed: 5
+  playerInvincibleTime: 2
+  playerSlidingTime: 1
+  preGeneratedDistance: 50
+  postDestroyedDistance: 20
+  AudioEntries:
+    pairs:
+    - key: BackgroundMusic
+      value: {fileID: 8300000, guid: 50cea91d62170fe43a4276f72fab20bf, type: 3}
+    - key: Jump
+      value: {fileID: 8300000, guid: bb5deaeff9901c54ba5d501793587bcb, type: 3}
+    - key: Slide
+      value: {fileID: 8300000, guid: b10dd326747faa947aa2540cbbc7422a, type: 3}
+    - key: Gugugaga
+      value: {fileID: 8300000, guid: b10dd326747faa947aa2540cbbc7422a, type: 3}
+    - key: TakeDamage
+      value: {fileID: 8300000, guid: 1d584b78e5ebb4f4b8ebb35e8a8990e4, type: 3}
+    - key: Die
+      value: {fileID: 8300000, guid: 307e209817c21ad4c8adc5270f233ab9, type: 3}
+    - key: Sprint
+      value: {fileID: 8300000, guid: 9d6f74a5da8e03e4cba16211cbab33f7, type: 3}
+  PlayerModelPrefabs:
+  - {fileID: 5342145890480895767, guid: aed28e93429b4d347908db8e0256c40b, type: 3}
+  - {fileID: 891293795347414188, guid: 32080337e1e746146ab693ffad35d2c1, type: 3}
+  - {fileID: 9154508637713291346, guid: 5cbccdf7a3a9c974ca00ace43f17a983, type: 3}
+  RoadSegmentPrefabs:
+  - {fileID: 1139323332879817514, guid: 94fdf17a03496024e80509ba4af97a94, type: 3}
+  TerrainPrefabs:
+  - {fileID: 8593036898356968498, guid: 0d435a1ca50a9534f9c29dd82d147039, type: 3}
+  DecorationPrefabs:
+  - {fileID: 3971818827362314672, guid: a48442d90b141004ba33aaca5c178d56, type: 3}
+  - {fileID: 5838918596731864247, guid: 7df9ce3dd0c4dbf4da01a6e072b53627, type: 3}
+  - {fileID: 6067229519452911974, guid: da7c6bbb4bf51684599d7dc7778a9d4d, type: 3}
+  - {fileID: 5717947022131927338, guid: f3cdfc220ad8b424ba2dd48372533ebf, type: 3}
+  - {fileID: 7292490079672988450, guid: 1e0abd76f607d454d8433620f3099899, type: 3}
+  - {fileID: 3745684323392466669, guid: 860eac4fa7a68764684dc7e44a8f9a46, type: 3}
+  - {fileID: 5235037958845838066, guid: 7225744582c14454984cf6e695df10cc, type: 3}
+  - {fileID: 868894562916813933, guid: 72b30bcf13887bb4a9cf89275a12c550, type: 3}
+  - {fileID: 2052181193424549239, guid: 15d50136465dfbe4cac467ba7d81da31, type: 3}
+  - {fileID: 2645588053014548567, guid: e60ae92fa0738f545942c9b348713e40, type: 3}
+  - {fileID: 3826687953153924527, guid: 8fa2e915565183a4ca5c434612b5c40a, type: 3}
+  - {fileID: 6878101203192794294, guid: 3f78109cf9a036542999a313ff1e8e35, type: 3}
+  - {fileID: 6452810697188196509, guid: 2616878a8edabba449227f6147d08dbd, type: 3}
+  - {fileID: 6938905042006679454, guid: 2d07bf1af4b29cb41acf3b2613b6df35, type: 3}
+  - {fileID: 6938905042006679454, guid: 86b82b8e0a7db7d43bd9ab39aa520d1f, type: 3}
+  - {fileID: 3308287857902737783, guid: 698b39e4d64dcf44a8eb0b9c5e81fa53, type: 3}
+  - {fileID: 5334784812866741509, guid: b2fdfac78a2c87542a465870c7b3c07f, type: 3}
+  - {fileID: 1478250452813496775, guid: d9431f1f402954544af8ca7a8abab29b, type: 3}
+  - {fileID: 7235498152303892581, guid: 92ce04037b0e54547a592c114eb81222, type: 3}
+  - {fileID: 2292504375495935023, guid: 2c4c633a50ce1bb499d81390a7f73406, type: 3}
+  - {fileID: 429174887592136069, guid: 83406013e04ec384787a0294cfa979c4, type: 3}
+  - {fileID: 2510637259099178500, guid: 2ec04194afad5d64b8cc4c02e05ad848, type: 3}
+  - {fileID: 2259213746234986800, guid: cdad3460a3d7bf641984d65694bfba9d, type: 3}
+  - {fileID: 5097211799113958527, guid: 66b4ff24d7e62104fb2ba8851a229835, type: 3}
+  - {fileID: 4145748984333269134, guid: e3c5b89b07e15c24987a7a6bf5acaf6b, type: 3}
+  - {fileID: 7471406939157850972, guid: e80ab9fd21787ee4baa27367cc2ecd54, type: 3}
+  DropPrefabs:
+  - {fileID: 3938800900273444196, guid: cec65d2381de0b54187f0801f6385265, type: 3}
+  ObstaclePrefabs:
+  - {fileID: 9059660056787389042, guid: 6608024f37b77924fbe4774c5c8c1151, type: 3}
+  - {fileID: 1259314690492545255, guid: 4a38a09caad3512449ed18660958a82d, type: 3}
+  - {fileID: 8884331534077243623, guid: 444822c878de4fb4fb417388d3dd80b8, type: 3}
+  - {fileID: 4722453630809958747, guid: a149671c1109bec4d8b7f27fe7bbf09a, type: 3}
+  - {fileID: 137823044107384489, guid: 980fb98244e093244a352a05ea3fec84, type: 3}
+  - {fileID: 469946225006515938, guid: 4d456e3b3efee5f4e8cc25c3320da4a1, type: 3}
+  - {fileID: 521461262069452780, guid: c9093b5d49aeebd489bf9650992ab8b9, type: 3}
+  - {fileID: 5770061548105147954, guid: df791ff1c06374b48948a094b9fd804d, type: 3}
